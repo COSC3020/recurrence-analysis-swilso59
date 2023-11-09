@@ -31,3 +31,14 @@ function mystery(n) {
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+&\Rightarrow 3(3T\left(\frac{n}{9}\right) + \left(\frac{n}{3}\right)^5) \\
+&= 9T\left(\frac{n}{9}\right) + \left(\frac{n^5}{3^4}\right) + n^5 \\
+&\Rightarrow 9(3T\left(\frac{n}{27}\right) + \left(\frac{n}{9}\right)^5) \\
+&= 27T\left(\frac{n}{27}\right) + \left(\frac{n^5}{9^4}\right) + \left(\frac{n^5}{3^4}\right) + n^5 \\
+&\Rightarrow 27(3T\left(\frac{n}{81}\right) + \left(\frac{n}{27}\right)^5) \\
+&= 81T\left(\frac{n}{81}\right) + \left(\frac{n^5}{27^4}\right) + \left(\frac{n^5}{9^4}\right) + \left(\frac{n^5}{3^4}\right) + n^5
+\end{align*} \]
+\[ \Rightarrow 3^4T\left(\frac{n}{3^4}\right) + \left(\frac{n^5}{3^{12}}\right) + \left(\frac{n^5}{3^8}\right) + \left(\frac{n^5}{3^4}\right) + n^5 \]
+Letting \( j = \log_3(n) \), the solution becomes:
+\[ T(n) = \sum_{j=0}^{\log_3(n)} \frac{n^5}{3^{4j}} \]
