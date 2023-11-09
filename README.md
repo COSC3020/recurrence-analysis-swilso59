@@ -36,6 +36,10 @@ might help with the notation for mathematical expressions.
 
 The recursive procedure can be analyzed as follows:
 
+## Recursive Procedure Analysis
+
+The recursive procedure can be analyzed as follows:
+
 \[
 \begin{align*}
 &\Rightarrow 3\left(3T\left(\frac{n}{9}\right) + \left(\frac{n}{3}\right)^5\right) \\
@@ -53,11 +57,4 @@ The recursive procedure can be analyzed as follows:
 
 Letting \( j = \log_3(n) \), the solution becomes:
 
-\[
-T(n) = \sum_{j=0}^{\log_3(n)} \frac{n^5}{3^{4j}}
-\]
-3(n) \), the solution becomes:
-
-\[
-T(n) = \sum_{j=0}^{\log_3(n)} \frac{n^5}{3^{4j}}
-\]
+\[ T(n) = \sum_{j=0}^{\log_3(n)} \frac{n^5}{3^{4j}} \]
