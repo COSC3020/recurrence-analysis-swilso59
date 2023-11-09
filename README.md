@@ -40,21 +40,20 @@ The recursive procedure can be analyzed as follows:
 
 The recursive procedure can be analyzed as follows:
 
-\[
-\begin{align*}
-&\Rightarrow 3\left(3T\left(\frac{n}{9}\right) + \left(\frac{n}{3}\right)^5\right) \\
-&= 9T\left(\frac{n}{9}\right) + \left(\frac{n^5}{3^4}\right) + n^5 \\
-&\Rightarrow 9\left(3T\left(\frac{n}{27}\right) + \left(\frac{n}{9}\right)^5\right) \\
-&= 27T\left(\frac{n}{27}\right) + \left(\frac{n^5}{9^4}\right) + \left(\frac{n^5}{3^4}\right) + n^5 \\
-&\Rightarrow 27\left(3T\left(\frac{n}{81}\right) + \left(\frac{n}{27}\right)^5\right) \\
-&= 81T\left(\frac{n}{81}\right) + \left(\frac{n^5}{27^4}\right) + \left(\frac{n^5}{9^4}\right) + \left(\frac{n^5}{3^4}\right) + n^5 \\
-\end{align*}
-\]
+## Recursive Procedure Analysis
+
+The recursive procedure can be analyzed as follows:
+
+- $3\left(3T\left(\frac{n}{9}\right) + \left(\frac{n}{3}\right)^5\right) = 9T\left(\frac{n}{9}\right) + \left(\frac{n^5}{3^4}\right) + n^5$
+- $9\left(3T\left(\frac{n}{27}\right) + \left(\frac{n}{9}\right)^5\right) = 27T\left(\frac{n}{27}\right) + \left(\frac{n^5}{9^4}\right) + \left(\frac{n^5}{3^4}\right) + n^5$
+- $27\left(3T\left(\frac{n}{81}\right) + \left(\frac{n}{27}\right)^5\right) = 81T\left(\frac{n}{81}\right) + \left(\frac{n^5}{27^4}\right) + \left(\frac{n^5}{9^4}\right) + \left(\frac{n^5}{3^4}\right) + n^5$
 
 \[
 \Rightarrow 3^4T\left(\frac{n}{3^4}\right) + \left(\frac{n^5}{3^{12}}\right) + \left(\frac{n^5}{3^8}\right) + \left(\frac{n^5}{3^4}\right) + n^5
 \]
 
-Letting \( j = \log_3(n) \), the solution becomes:
+Letting $ j = \log_3(n) $, the solution becomes:
 
-\[ T(n) = \sum_{j=0}^{\log_3(n)} \frac{n^5}{3^{4j}} \]
+\[
+T(n) = \sum_{j=0}^{\log_3(n)} \frac{n^5}{3^{4j}}
+\]
