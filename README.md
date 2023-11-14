@@ -43,9 +43,11 @@ The recursive procedure can be analyzed as follows:
 
 $\Rightarrow 3^4T\left(\frac{n}{3^4}\right) + \left(\frac{n^5}{3^{12}}\right) + \left(\frac{n^5}{3^8}\right) + \left(\frac{n^5}{3^4}\right) + n^5$
 
-Letting j = \log_3(n), the solution becomes:
+Letting n = \log_3(n), the solution becomes:
 
 $\Rightarrow 3^4T\left(\frac{n}{3^4}\right) + \left(\frac{n^5}{3^{12}}\right) + \left(\frac{n^5}{3^8}\right) + \left(\frac{n^5}{3^4}\right) + n^5$
+
+Can be written in the form of a geometric series:
 
 $\Rightarrow T(n) =  3^iT\left(\frac{n}{3^i}\right) + \sum_{i=0}^{\log_3(n)} \frac{n^5}{3^{4i}}$
 
