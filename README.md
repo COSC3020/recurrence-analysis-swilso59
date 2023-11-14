@@ -74,7 +74,15 @@ This give us:
 
 - $\frac{(n^{-4}\left(\frac{1}{81}\right) - 1}{\frac{1}{81} - 1} $
 
-Now we can multiple this fraction by the $\left(n\right)^{5} coefficeint from $\ T(n) = n + n^{5}\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i}$
+Now we can multiple this fraction by the $\left(n\right)^{5} coefficient from $\ T(n) = n + n^{5}\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i}$:
+
+- $\frac{\frac{1}{81}n - n^{5}}{\frac{1}{81}-1}$
+
+- $\frac{\frac{1}{81}n - n^{5}}{\frac{-80}{81}-1}$
+
+  Now we take the sigma part of the equation and plug it back into the T(n) equation:
+
+- $ T(n) = n + \frac{\frac{1}{81}n - n^{5}}{\frac{-80}{81}-1}$
 
 - 
 
