@@ -1,4 +1,4 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12596842&assignment_repo_type=AssignmentRepo)
++++[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12596842&assignment_repo_type=AssignmentRepo)
 # Recurrence Analysis -- Mystery Function
 
 Analyze the running time of the following recursive procedure as a function of
@@ -65,7 +65,7 @@ $\Rightarrow T(n) =  3^iT\left(\frac{n}{3^i}\right) + \sum_{i=0}^{\log_3(n)} \le
 
 This give us:
 
-- $\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i}$ = $\frac{\frac{1}{3^{4}}^{\log_3(n+1)} - 1}{\frac{1}{3^{4}-1}$
+- $\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i}$ = \frac{\frac{1}{3^{4}}^{\log_3(n+1)}} - 1}{\frac{1}{3^{4}-1}$
 
   
 
