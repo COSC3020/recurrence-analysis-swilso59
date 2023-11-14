@@ -59,13 +59,13 @@ $\Rightarrow T(n) =  3^iT\left(\frac{n}{3^i}\right) + \sum_{i=0}^{\log_3(n)} \le
 
 - $\ T(n) = n + n^{5}\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i}$
 
-- $\ a = \left(\frac{1}{3^{4}}$
+- $\ a = \left(\frac{1}{3^{4}}\right)$
 
-- $\ n = log_3\left9n\right)$
+- $\ n = log_3\left(9n\right)$
 
 This give us:
 
-- $\ \sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i} = \frac{\frac{1}{3^{4}}^{log_3(n+1)} - 1}{\frac{1}{3^{4}-1}$
+- $\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i} = \frac{\frac{1}{3^{4}}^{log_3(n+1)} - 1}{\frac{1}{3^{4}-1}$
 
 - 
 
