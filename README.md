@@ -65,9 +65,9 @@ $\Rightarrow T(n) =  3^iT\left(\frac{n}{3^i}\right) + \sum_{i=0}^{\log_3(n)} \le
 
 This give us:
 
-- $\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i} = \frac{\frac{1}{3^{4}}^{log_3(n+1)} - 1}{\frac{1}{3^{4}-1}$
+- $\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i} = \frac{\frac{1}{3^{4}}^{\log_3(n+1)} - 1}{\frac{1}{3^{4}-1}$
 
-- 
+  
 
 
 ## Asymtotic Complexity 
