@@ -82,9 +82,9 @@ Now we can multiple this fraction by the $\left(n\right)^{5} coefficient from $\
 
   Now we take the sigma part of the equation and plug it back into the T(n) equation:
 
-- $ T(n) = n + \frac{\frac{1}{81}n - n^{5}}{\frac{-80}{81}-1}$
+- $\ T(n) = n + \frac{\frac{1}{81}n - n^{5}}{\frac{-80}{81}-1}$
 
-- 
+- $\ T(n) = n + \left(\frac{-n}{80}\right) - \frac{81}{80}n^{5}$
 
 
 ## Asymtotic Complexity 
