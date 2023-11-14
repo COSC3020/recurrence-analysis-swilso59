@@ -55,9 +55,9 @@ $\Rightarrow T(n) =  3^iT\left(\frac{n}{3^i}\right) + \sum_{i=0}^{\log_3(n)} \le
 
 - $3^{lon_3(n)}T(1) + \sum_{i=0}^{\log_3(n)} \left(\frac{n^5}{3^{4i}}\right)$
 
-- $ T(n) = n + n^{5}\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4i}}\right)$
+- $\ T(n) = n + n^{5}\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4i}}\right)$
 
-- $ T(n) = n + n^{5}\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i}$
+- $\ T(n) = n + n^{5}\sum_{i=0}^{\log_3(n)}\left(\frac{1}{3^{4}}\right)^{i}$
 
 
 ## Asymtotic Complexity 
