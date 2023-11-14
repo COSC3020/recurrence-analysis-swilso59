@@ -49,7 +49,7 @@ $\Rightarrow T(n) = 3^4T\left(\frac{n}{3^4}\right) + \left(\frac{n^5}{3^{12}}\ri
 
 Can be written in the form of a geometric series:
 
-$\Rightarrow \sum_{i=0}^{n} \left(a)^i\right) = \frac{a^{n+1} - 1}{a-1}$
+- $\sum_{i=0}^n (\left(a)^i\right) = \frac{a^{n+1} - 1}{a-1}$
 
 $\Rightarrow T(n) =  3^iT\left(\frac{n}{3^i}\right) + \sum_{i=0}^{\log_3(n)} \frac{n^5}{3^{4i}}$
 
