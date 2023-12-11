@@ -85,7 +85,17 @@ Now, let's take the sigma part of the equation and plug it back into the $T(n)$ 
 
 - $T(n) = n + \left(\frac{-n}{80}\right) - \frac{81}{80}n^{5}$
 
-## Asymptotic Complexity 
+## Asymptotic Complexity Analysis
 
-$O(n^5)$
+In the previous steps, we derived the recursive relation for the runtime of the code:
+
+$$T(n) = n + \left(\frac{-n}{80}\right) - \frac{81}{80}n^{5}$$
+
+Now, let's analyze the dominant term as \(n\) approaches infinity:
+
+$$T(n) \approx -\frac{81}{80}n^{5}$$
+
+As \(n\) becomes very large, the dominating term is the \(n^{5}\) component, and the other terms become negligible in comparison.
+
+Therefore, we can conclude that the asymptotic complexity of the given recursive procedure is $\(O(n^5))$. This is because, in big $(O)$ notation, we are interested in the dominant term that grows the fastest as the input size $(n\)$ becomes large, and in this case, it is $(n^{5})$.
 
